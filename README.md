@@ -41,15 +41,6 @@ npm run dev               # http://localhost:5173  (proxies /api to :5000)
 
 `.env` is listed in `.gitignore` and must never be committed. Only `.env.example` is tracked.
 
-### Demo accounts (after `npm run seed`)
-
-| Role    | Email                     | Password    |
-|---------|---------------------------|-------------|
-| Admin   | admin@attendtrack.test    | Admin@123   |
-| Teacher | teacher@attendtrack.test  | Teacher@123 |
-| Student | student1@attendtrack.test (to student5) | Student@123 |
-
-The seed data gives the five students different absence counts, so some fall below the 75% requirement.
 
 ## Mandatory requirements checklist
 

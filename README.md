@@ -94,4 +94,4 @@ npm run dev               # http://localhost:5173  (proxies /api to :5000)
 3. Run the collection with the Collection Runner (top to bottom). Tokens and IDs are stored in collection variables by test scripts.
 4. Re-run `npm run seed` before each full run. The register request uses a timestamped email, which is fixed when the collection file is generated. If it returns 409, change that email.
 
-**Deployment Link:**
+**Deployment Link:https://web-dev-capstone-three.vercel.app/login**
